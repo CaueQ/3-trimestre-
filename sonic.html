@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shadow.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>manda um numero</h1>
+        <p>manda um numero de 1 a 100</p>
+        <p>tu tem 10 chances</p>
+
+        <div class="input-area">
+            <label for="campoPalpite">manda teu numero</label>
+            <input type="number" id="campoPalpite" min="1" max="100">
+            <button id="BotaoEnviar">manda o numero ae pai</button>
+        </div>
+
+        <div class="resultado-area">
+            <p class="mensagem"></p>
+            <p class="palpites-anteriores"></p>
+            <p class="dica"></p>
+        </div>
+
+        <button id="botaodereiniciar" class="hidden">reniciar jogo</button>
+    </div>
+
+    <script src="silver.js" defer></script>
+</body>
+</html>
