@@ -35,3 +35,76 @@ p {
     align-items: center;
     gap: 15px;
 }
+input[type="number"] {
+padding: 12px 15px;
+border: 2px solid crimson;
+border-radius: 5px;
+font-size: 1.1em;
+width: 150px;
+text-align: center;
+background-color: bisque;
+color: red;
+outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: crimson;
+}
+
+button{
+    background-color: crimson;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: blue;
+}
+.resultado-area p {
+    font-size: 1.05em;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.mensagem {
+    font-weight: bold;
+    color: white;
+}
+.palpites-anteriores{
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+.dia{
+    font-style: italic;
+    color: orange;
+}
+
+.hidden{
+    display: none;
+}
+
+@keyframes flashGreen {
+    0%{background-color: transparent;}
+    50%{background-color: blueviolet;}
+    100%{background-color: transparent;}
+}
+@keyframes Flashred {
+    0%{background-color: transparent;}
+    50%{background-color: darkblue;}
+    100%{background-color: transparent;}
+}
+
+.flash-green{
+    animation: flashgreen 0.5s ease-in-out;
+}
+
+.flash-red{
+    animation: flashgreen 0.5s ease-in-out;
+}
